@@ -17,7 +17,12 @@ nav.index {
   width: 250px;
 }
 
-
+h1 {
+  font-size: 40px;
+  padding-left: 25%;
+  padding-top: auto;
+  display: flex;
+}
 
 body {
     background-color: #DCF2F1;
@@ -80,8 +85,8 @@ a {
     text-align: justify;
 }
 
-.select {
-    font-size: x-large;
+.welcome {
+    font-size: 20px;
     text-align: center;
     font-weight: bolder;
 }
@@ -107,10 +112,6 @@ a:hover {
     color: #ff0000;
   }
 
-h2:hover {
-    color: rgb(255, 0, 0);
-}
-
 nav.index2 {
     margin-left: center;
     background-color: #0F1035;
@@ -124,9 +125,6 @@ nav.index2 {
     color:rgb(0, 0, 0); 
     box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5);     
 }
-
-
-
 
 /* @media screen and (max-width: 800px) {
   .logo {

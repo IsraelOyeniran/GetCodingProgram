@@ -85,6 +85,12 @@ a {
     text-align: justify;
 }
 
+.learnmore {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
+
 .grid-container {
     display: grid;
     justify-content: space-evenly;
