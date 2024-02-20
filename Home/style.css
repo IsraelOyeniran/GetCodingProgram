@@ -19,7 +19,7 @@ nav.index {
 
 h1 {
   font-size: 40px;
-  padding-left: 25%;
+  padding-left: 20%;
   padding-top: auto;
   display: flex;
 }
@@ -126,30 +126,103 @@ nav.index2 {
     box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5);     
 }
 
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 1280px) {
   .logo {
     height: 90px;
     width: 250px;
   }
-}
 
-@media screen and (max-width: 375px) {
-  .logo {
-      width: 100px;
-      height: 50px;
+  h1 {
+    font-size: 30px;
+    padding-left: 12%;
+    padding-top: 2.5%;
   }
+  
 }
 
 @media screen and (max-width: 800px) {
+  .logo {
+    height: 90px;
+    width: 250px;
+  }
+
   h1 {
     font-size: 25px;
     padding-left: 12%;
+    padding-top: 4%;
   }
+  
 }
 
 @media screen and (max-width: 375px) {
-  h1 {
-    font-size: 15px;
-    padding-left: 8%;
+  nav.index {
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    display: grid;
+    height: 80px;
   }
+  nav h1 {
+      font-size: 15px;
+  }
+  .logo {
+    width: 80px;
+    height: 40px;
+  }
+  .index {
+    padding: 10px;
+  }
+  
+  .index2 {
+      padding: 5px;
+  }
+  body {
+    background-color: rgba(255, 255, 255, 0.726);
+  }
+  .ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #555;
+        color: white;
+  }
+  /* nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+nav ul li a.active {
+    background-color: #555;
+    color: white;
 } */
+  .box {
+      margin: 1px;
+      border-radius: 0px;
+      background-color: #ffffff;
+      padding: 20px;
+      border-color: white; 
+      text-align: justify;
+      box-shadow: none;
+  }
+  .welcome {
+      font-size: 10px;
+      text-align: center;
+  }
+  .box p {
+      font-size: 14px;
+  }
+  .grid-container div {
+      margin: 5px;
+  }
+}
