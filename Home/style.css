@@ -156,73 +156,65 @@ nav.index2 {
 
 @media screen and (max-width: 375px) {
   nav.index {
-    background-color: #333;
-    color: white;
-    padding: 5px;
-    text-align: center;
-    display: grid;
-    height: 80px;
+    height: 50px;
   }
-  nav h1 {
-      font-size: 15px;
-  }
-  .logo {
-    width: 80px;
-    height: 40px;
-  }
-  .index {
-    padding: 10px;
-  }
-  
-  .index2 {
-      padding: 5px;
-  }
-  body {
-    background-color: rgba(255, 255, 255, 0.726);
-  }
-  .ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-color: #555;
-        color: white;
-  }
-  /* nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+.logo {
+  width: 80px;
+  height: 50px;
 }
-nav ul li {
-    display: inline;
+h1 {
+  font-size: 15px;
+  padding-left: 10%;
+}
+.index, .index2 {
+  background-color: #333;
+  color: white;
+  padding: 10px;
 }
 nav ul li a {
-    text-decoration: none;
-    color: black;
-    padding: 10px 20px;
+  padding: 8px 16px;
 }
-nav ul li a.active {
-    background-color: #555;
-    color: white;
-} */
-  .box {
-      margin: 1px;
-      border-radius: 0px;
-      background-color: #ffffff;
-      padding: 20px;
-      border-color: white; 
-      text-align: justify;
-      box-shadow: none;
+ul {
+  list-style-type: ;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffffe0;
+}
+
+li {
+  justify-items: center;
+}
+
+li a {
+  display: list-item;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: small;
+}
+body {
+  background-color: rgba(255, 255, 255, 0.726);
   }
-  .welcome {
-      font-size: 10px;
-      text-align: center;
+.box {
+  margin: 1px;
+  border-radius: none 0px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-color: white; 
+  text-align: justify;
+  box-shadow: none 0px;
+  border-style: none;
   }
-  .box p {
-      font-size: 14px;
+.welcome {
+  font-size: 10px;
+  text-align: center;
   }
-  .grid-container div {
-      margin: 5px;
+.box p {
+  font-size: 14px;
+  }
+.grid-container div {
+    margin: 5px;
   }
 }
